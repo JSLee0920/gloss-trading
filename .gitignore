@@ -1,0 +1,19 @@
+# Claude Code — share settings.json, keep personal + secret files local
+.claude/settings.local.json
+.claude/*.local.json
+
+# Vendored agent skills (re-fetchable from skills-lock.json — keep the lock tracked)
+.agents/skills/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.idea/
+.vscode/
+*.swp
+
+# Playwright
+test-results/
+playwright-report/
